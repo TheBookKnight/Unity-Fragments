@@ -3,6 +3,8 @@
 
 This Unity fragment provides a modular script for 2D topdown player movement. When the player moves in any direction, the sprite will automatically rotate to face the direction of movement (e.g., northeast, southwest, etc.).
 
+![Player 2D Topdown Movement Demo](player-2d-topdown-movement.gif)
+
 ## Features
 - Simple player controls for topdown 2D movement
 - Sprite automatically faces the direction of movement
