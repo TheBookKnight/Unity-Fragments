@@ -1,4 +1,3 @@
-
 # Unity Fragment: Player 2D Top Down Movement
 
 This Unity fragment provides a modular script for 2D topdown player movement. When the player moves in any direction, the sprite will automatically rotate to face the direction of movement (e.g., northeast, southwest, etc.).
