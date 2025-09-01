@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Inventory.uss?fileID=7433441132597879392&amp;guid=ad5284425dba646b184e834cf4d2661c&amp;type=3#Inventory" />
+    <ui:VisualElement name="Container" class="container">
+        <ui:VisualElement name="Inventory" class="inventory">
+            <ui:Label text="Inventory" display-tooltip-when-elided="true" name="Header" class="header" />
+            <ui:VisualElement name="SlotContainer" class="slotsContainer" style="align-items: center; justify-content: center; flex-direction: row; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; flex-shrink: 1; background-image: url(&quot;project://database/Assets/Inventory%20and%20Collectible%20System/ItemSlotBackground.png?fileID=2800000&amp;guid=4cf0996fee001402b9779926175f9580&amp;type=3#ItemSlotBackground&quot;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

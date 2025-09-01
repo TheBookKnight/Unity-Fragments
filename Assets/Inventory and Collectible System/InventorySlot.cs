@@ -14,6 +14,6 @@ public class InventorySlot : VisualElement
 
         // Add USS classes to the elements for styling  
         Icon.AddToClassList("slotIcon");
-        AddToClassList("slotContainer");
+        AddToClassList("SlotContainer");
     }
 }

@@ -16,7 +16,7 @@ public class InventoryUIController : MonoBehaviour
         m_Root = GetComponent<UIDocument>().rootVisualElement;
 
         // Search the root for the SlotContainer Visual Element
-        m_SlotContainer = m_Root.Query<VisualElement>("SlotContainer");
+        m_SlotContainer = m_Root.Query("SlotContainer");
 
         // Create InventorySlots and add them as children to the SlotContainer
         for (int i = 0; i < 20; i++)
